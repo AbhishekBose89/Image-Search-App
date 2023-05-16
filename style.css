@@ -63,7 +63,7 @@ form {
 }
 .search-result img {
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	object-fit: cover;
 	transition: transform 0.3s ease-in-out;
 }
@@ -76,6 +76,8 @@ form {
 	color: #333;
 	text-decoration: none;
 	transition: background-color 0.3 ease-in-out;
+	text-align: center;
+	height: 97px;
 }
 .search-result:hover a {
 	background-color: rgba(0, 0, 0, 0.1);
@@ -91,6 +93,7 @@ form {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s ease-in-out;
+	display: none;
 }
 #show-more-button:hover {
 	background-color: #0077b5;
